@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
    
     
@@ -13,7 +14,7 @@
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
       android:id="@+id/et_edt1_id"
-      android:layout_marginTop="30dp"/>
+      android:layout_marginTop="70dp"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" 
@@ -135,31 +136,36 @@
       android:text="-"
       android:textSize="20dp"
       android:layout_toRightOf="@id/bt_button6_id"
-      android:layout_below="@id/bt_buttonadd_id"
+      android:layout_below="@id/bt_buttonmul_id"
       android:layout_marginStart="20dp"
 
+
+
       />
+
   <Button
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
       android:id="@+id/bt_buttonmul_id"
-      android:text="*"
-      android:textSize="20dp"
-      android:layout_below="@id/bt_buttonsub_id"
-      android:layout_toRightOf="@id/bt_button9_id"
-      android:layout_marginStart="20dp"
-
-      />
-  <Button
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
+      android:layout_below="@id/bt_buttonsub_id"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="17dp"
+      android:layout_marginTop="30dp"
+      android:layout_toRightOf="@id/bt_button9_id"
+
+      android:text="*"
+      android:textSize="20dp" />
+
+  <Button
       android:id="@+id/bt_buttondiv_id"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="20dp"
+      android:layout_marginLeft="22dp"
+      android:layout_toRightOf="@id/bt_buttonc_id"
       android:text="/"
       android:textSize="15sp"
-      android:layout_below="@id/bt_buttonmul_id"
-      android:layout_toRightOf="@id/bt_buttonc_id"
-      android:layout_marginStart="20dp"
-      />
+      android:layout_below="@id/bt_buttonmul_id"/>
 
   <Button
       android:layout_width="wrap_content"
@@ -172,45 +178,4 @@
       android:layout_centerInParent="true"
       android:layout_marginTop="20dp"
       />
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 </RelativeLayout>
